@@ -5,4 +5,14 @@
 
 
 let n = "Rifat";
-console.log(`Hi ${n}`)
+console.log(`Hi ${n}`);
+
+// expression 
+console.log(`2 +3 = { 2+4}`);
+
+//
+let text = `
+
+Hello Rifat
+
+Welcome to the world of JavaScrip`;
