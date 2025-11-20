@@ -10,3 +10,4 @@ console.log(typeof AnotherBalance);
 let isActive = true;
 let IsReallyActive = new Boolean(true);
 
+let UserName = "Hitesh";
