@@ -24,8 +24,20 @@
 // console.log(cheap); // 100
 
 
-let a = [5 ,10 ,15 ,50 , 60];
+// let a = [5 ,10 ,15 ,50 , 60];
 
-let result = a.find(n => n > 20);
+// let result = a.find(n => n > 20);
 
-console.log(result); // 50
+// console.log(result); // 50
+
+
+let users = [
+    {name: "Rifat", age: 24},
+    {name: "John", age: 30},
+    {name: "Alice", age: 28}
+];
+
+let adult = users.find(u => u.age >= 25);
+
+console.log(adult); 
+// [ { name: 'John', age: 30 }, { name: 'Alice', age: 28 } ]
